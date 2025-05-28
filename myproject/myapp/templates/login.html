@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block title %} LOGIN PAGE {%  endblock %}
+
+{% block content %}
+
+<div class="login-page">
+    <div class="container-fluid d-flex flex-column  justify-content-center align-content-center  vh-100">
+        <div class="row w-100 justify-content-center" >
+            <form class="form-login  col-10 col-md-8 col-lg-4 justify-content-center" action="" method="">
+                <h2 class="col-12 text-center">Login</h2> <br>
+                <div class="form-floating col-8 col-md-7 ">
+                    <input type="text" class="form-control" placeholder="Username" name="username" id="username">
+                    <label for="username" class="form-label">Userame </label>
+                </div><br>
+                <div class="form-floating col-8 col-md-7 " >
+                    <input type="password" class="form-control" placeholder="password" name="password" id="password">
+                    <label for="password" class="form-label">Password</label>
+                </div><br>
+                <div class="col-10 d-flex py-3">
+                    <div class="col-6 form-check ">
+                        <input type="checkbox" class="form-check-input" name="" id="checkbox">
+                        <label for="checkbox" class="form-check-label" style="color: white;">Remember for 30 days</label>
+                    </div>
+                    <div class="col-6">
+                        <a href="" class="FP-pass">Forgot password?</a>
+                    </div>
+                </div>
+                <div  >
+                    <input class="btn btn-primary" type="submit" value="Login">
+                </div>
+      
+             </form>
+            
+        </div>
+    </div>
+
+</div>
+
+
+{% endblock %}
