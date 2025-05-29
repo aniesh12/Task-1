@@ -43,8 +43,9 @@
       <form class="d-flex" role="search">
         <div class="Cnt-From">
         <a href="{% url 'contact' %}" class="Fr-btn">Contact</a>
-        <a href="{% url 'login' %}"><i class="fa-solid fa-user" style="color: #ffffff;"></i></a>
+        <a href="{% url 'user_login' %}"><i class="fa-solid fa-user" style="color: #ffffff;"></i></a>
         <a href=""><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></a>
+        <a href="{% url 'logout_us' %}" class="btn btn-danger">logout</a>
         </div>
       </form>
     </div>

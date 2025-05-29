@@ -32,7 +32,7 @@ html, body{
     
 }
 .Cnt-From{
-    width: 190px;
+    width: 290px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -215,7 +215,8 @@ footer{
 
 .second-box{
     width: 100%;
-    height: 90vh;
+    max-height: auto;
+    position: relative;
 }
 
 
@@ -246,6 +247,31 @@ footer{
 .service-backgtound-2{
    
     width: 100%;
-    height: 40vh;
+    height: 35vh;
 }
+
+@media (max-width: 1024px) and (min-width: 768px) {
+ .service-backgtound-2{
+   
+    height: 55vh;
+        padding-top: 1px;
+
+}
+
+
+}
+
+
+@media (max-width: 767px){
+
+     .service-backgtound-2{
+   
+    height: 70vh;
+    padding-top: 1px;
+
+}
+
+}
+
+
 
