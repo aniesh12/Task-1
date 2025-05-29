@@ -34,9 +34,9 @@ def user_login(request):
     return render(request,'login.html')
 
 
-@login_required
-def home_view(request):
-    return render(request,'home.html')
+# @login_required
+# def home_view(request):
+#     return render(request,'home.html')
 
 def sign_lo(request):
   if request.method == 'POST':
